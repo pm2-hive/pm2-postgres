@@ -33,7 +33,7 @@ pmx.initModule({
       meta: true,
 
       // Custom metrics to put in BIG
-      main_probes: ['Tables', 'Indexes']
+      main_probes: ['Tables', 'Indexes','Total Tables Size','Backends Active','Exclusive Locks']
     }
 
   }

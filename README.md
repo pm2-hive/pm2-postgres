@@ -7,10 +7,12 @@ PostgreSQL module for Keymetrics
 
 PM2 module to monitor key PostgreSQL server metrics:
 
-* 
-* 
-* 
-*
+* Tables / Indexes Count
+* Backends Active / Idle
+* Exclusive / Access Share Locks
+* Total Tables Size
+* Transactions Committed / Rollback
+* Tuples Fetched / Updated / Inserted / Deleted
 
 ## Requirements
 
