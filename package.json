@@ -1,0 +1,31 @@
+{
+  "name": "pm2-postgres",
+  "version": "0.0.1",
+  "description": "PM2 PostgreSQL Module",
+  "main": "app.js",
+  "dependencies": {
+    "pg": "^4.4.2",
+    "pmx": ">=0.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pm2-hive/pm2-postgres.git"
+  },
+  "config": {
+    "hostname": "localhost",
+    "port": 5432,
+    "username": "guest",
+    "password": "guest",
+    "database": "postgres"
+  },
+  "apps": [
+    {
+      "merge_logs": true,
+      "max_memory_restart": "200M",
+      "script": "app.js"
+    }
+  ],
+  "author": "Keymetrics Inc.",
+  "license": "MIT",
+  "devDependencies": {}
+}
