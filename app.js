@@ -18,7 +18,7 @@ pmx.initModule({
     // 1 = secondary
     // 2 = main border
     // 3 = secondary border
-    theme: ['#141A1F', '#222222', '#FC6400', '#807C7C'],
+    theme: ['#60798c', '#326892', '#ffffff', '#807C7C'],
 
     // Section to show / hide
     el: {
