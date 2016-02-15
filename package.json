@@ -1,6 +1,6 @@
 {
   "name": "pm2-postgres",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "PM2 PostgreSQL Module",
   "main": "app.js",
   "dependencies": {
